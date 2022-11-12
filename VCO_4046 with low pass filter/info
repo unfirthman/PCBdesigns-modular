@@ -1,0 +1,504 @@
+{
+  "uuid": "4a9510b952f6da56962b7a5eca69f4df",
+  "path": "Offline/VCO_4046 with low pass filter",
+  "name": "VCO_4046 with low pass filter",
+  "content": "",
+  "created_at": "2021-01-22 16:29:48",
+  "updated_at": "2021-02-16 10:38:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3e9d0395291631c3b4cff6d099c78b94",
+      "title": "4046 VCO v.1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a564ed556408470bb74c49ee5c05b141": 1,
+        "476496da4b334546a66a88c8f4c18b54": 1,
+        "968a8be4538f4fc4b59a61bf150e4010": 1,
+        "105c09c89301403ba59ad0569529d346": 1,
+        "6895e494a16d411ba6f5a9db976e4aaa": 3,
+        "dbfa7da092bc44faa13a86aaa683160b": 8,
+        "d3835e85abcc4e6ea56d7abf70b4a902": 1,
+        "d06fd183e0b742e191bf48a41812063c": 2,
+        "e1351d38d0ea4147986bb80f8193052d": 4,
+        "b4d8b7bec4df4f00b758930977467385": 1,
+        "625b451f56004b6da0c8eb032ad37898": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10K",
+          1,
+          "RES-ADJ-TH_3P-L9.5-W9.5-P2.50-L_3386P",
+          "TRIM",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C118953",
+            "BOM_Manufacturer": "Chengdu Guosheng Tech",
+            "BOM_Manufacturer Part": "3386P-1-103",
+            "puuid": "569ca0250aca49ba8eced2d5a147a418",
+            "uuid": "105c09c89301403ba59ad0569529d346"
+          }
+        ],
+        [
+          "1MS1T2B4M7QES",
+          1,
+          "SW-TH_1MS1T2B4M7QES",
+          "SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C496157",
+            "BOM_Manufacturer": "Dailywell",
+            "BOM_Manufacturer Part": "1MS1T2B4M7QES",
+            "puuid": "a5d632a6b0124ace8080a44ea8191d13",
+            "uuid": "625b451f56004b6da0c8eb032ad37898"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "RES-ADJ-TH_RK1631110U1Q",
+          "POT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C370978",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "PTV09A-2020F-B103",
+            "puuid": "48ed51daffa0421990c0e5c97698999c",
+            "uuid": "968a8be4538f4fc4b59a61bf150e4010"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          2,
+          "PJ-323M SIDE MOUNT",
+          "J3,J2",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "output",
+          1,
+          "PJ-323M SIDE MOUNT",
+          "J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "476496da4b334546a66a88c8f4c18b54"
+          }
+        ],
+        [
+          "4046",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "a564ed556408470bb74c49ee5c05b141"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "RES-TH_RK09K1110A0J",
+          "PT6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C209767",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1110A0J",
+            "puuid": "2911fdb99ae04b8293fdd520b8027fcc",
+            "uuid": "b4d8b7bec4df4f00b758930977467385"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×F2.0",
+          "C3,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 2x5p 2.54mm",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          "10nf",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "100nf",
+          2,
+          "RAD-0.1",
+          "C10,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          ".1u",
+          5,
+          "RAD-0.1",
+          "C5,C9,C6,C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R_AXIAL-0.5",
+          "R4,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R_AXIAL-0.5",
+          "R2,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ]
+      ],
+      "updateTime": 1611887458,
+      "createTime": 1611350989,
+      "histories": [],
+      "created_at": "2021-01-22 16:29:49",
+      "updated_at": "2021-01-28 21:30:58"
+    },
+    {
+      "uuid": "81fa1c443463e206632eca43d3829911",
+      "puuid": "d25cc892b489f0a7a644af33c58a0423",
+      "title": "LPF v.1",
+      "filename": "LPF v.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2911fdb99ae04b8293fdd520b8027fcc": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 8,
+        "cea48a4acd754f11b7ed89e387f3a36a": 3,
+        "a5d632a6b0124ace8080a44ea8191d13": 1,
+        "e46b9352a8354a20870bdcdcb288663a": 4,
+        "569ca0250aca49ba8eced2d5a147a418": 1,
+        "48ed51daffa0421990c0e5c97698999c": 1,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10K",
+          1,
+          "RES-ADJ-TH_3P-L9.5-W9.5-P2.50-L_3386P",
+          "TRIM",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C118953",
+            "BOM_Manufacturer": "Chengdu Guosheng Tech",
+            "BOM_Manufacturer Part": "3386P-1-103",
+            "puuid": "569ca0250aca49ba8eced2d5a147a418",
+            "uuid": "105c09c89301403ba59ad0569529d346"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "RES-ADJ-TH_RK1631110U1Q",
+          "POT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C370978",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK1631110U1Q",
+            "puuid": "48ed51daffa0421990c0e5c97698999c",
+            "uuid": "968a8be4538f4fc4b59a61bf150e4010"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          3,
+          "PJ-323M SIDE MOUNT",
+          "U3,U4,J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "476496da4b334546a66a88c8f4c18b54"
+          }
+        ],
+        [
+          "4046",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "a564ed556408470bb74c49ee5c05b141"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×F2.0",
+          "C3,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 2x5p 2.54mm",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          5,
+          "RAD-0.1",
+          "C9,C8,C7,C6,C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "RAD-0.1",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10nf",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R_AXIAL-0.5",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R_AXIAL-0.5",
+          "R2,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ]
+      ],
+      "updateTime": 1611428982,
+      "createTime": 1611357570,
+      "histories": [],
+      "created_at": "2021-01-22 18:19:30",
+      "updated_at": "2021-01-23 14:09:42"
+    },
+    {
+      "uuid": "6e5fea4495759052d2a869e1c50fab7e",
+      "puuid": "4a9510b952f6da56962b7a5eca69f4df",
+      "title": "LPF Panel",
+      "filename": "LPF Panel.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1613489883,
+      "createTime": 1611428878,
+      "histories": [],
+      "created_at": "2021-01-23 14:07:58",
+      "updated_at": "2021-02-16 10:38:03"
+    },
+    {
+      "uuid": "8b513bd403f4899c01da1f181642b808",
+      "puuid": "4a9510b952f6da56962b7a5eca69f4df",
+      "title": "LPF v.2",
+      "filename": "LPF v.2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "48ed51daffa0421990c0e5c97698999c": 1,
+        "2911fdb99ae04b8293fdd520b8027fcc": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 8,
+        "cea48a4acd754f11b7ed89e387f3a36a": 3,
+        "a5d632a6b0124ace8080a44ea8191d13": 1,
+        "e46b9352a8354a20870bdcdcb288663a": 4,
+        "569ca0250aca49ba8eced2d5a147a418": 1,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1613419185,
+      "createTime": 1612116836,
+      "histories": [],
+      "created_at": "2021-01-31 13:13:56",
+      "updated_at": "2021-02-15 14:59:45"
+    }
+  ],
+  "sort": [],
+  "title": "VCO_4046 with low pass filter",
+  "foldername": "VCO_4046 with low pass filter",
+  "schfilename": "VCO_4046 with low pass filter.json",
+  "schfilemtime": 1611887458919
+}
