@@ -1,0 +1,55 @@
+{
+  "uuid": "e53f0e0dc7d4b449d5bf46db59abf30a",
+  "path": "Offline/yusynth_adsr_v.1",
+  "name": "yusynth_adsr_v.1",
+  "content": "",
+  "created_at": "2021-01-07 14:25:47",
+  "updated_at": "2021-01-07 14:25:47",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f52868cce0721f821b15de377370dfcd",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fe0383311f3248e4a586486853c1f632": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "XD7555",
+          1,
+          "DIP-8_L9.7-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C521188",
+            "BOM_Manufacturer": "XINLUDA",
+            "BOM_Manufacturer Part": "XD7555",
+            "puuid": "26ddc6f916344af197d04f4724b10b8a",
+            "uuid": "fe0383311f3248e4a586486853c1f632"
+          }
+        ]
+      ],
+      "updateTime": 1610047547,
+      "createTime": 1610047547,
+      "histories": [],
+      "created_at": "2021-01-07 14:25:47",
+      "updated_at": "2021-01-07 14:25:47"
+    }
+  ],
+  "sort": [],
+  "title": "yusynth_adsr_v.1",
+  "foldername": "yusynth_adsr_v.1",
+  "schfilename": "yusynth_adsr_v.1.json",
+  "schfilemtime": 1610047547493
+}
