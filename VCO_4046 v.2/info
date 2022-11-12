@@ -1,0 +1,413 @@
+{
+  "uuid": "d25cc892b489f0a7a644af33c58a0423",
+  "path": "Offline/VCO_4046 v.2",
+  "name": "VCO_4046 v.2",
+  "content": "",
+  "created_at": "2021-01-11 12:33:32",
+  "updated_at": "2021-01-23 17:57:28",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e27d7f3a60c65b23dd2cb271fc339132",
+      "title": "4046 VCO v.1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a564ed556408470bb74c49ee5c05b141": 1,
+        "476496da4b334546a66a88c8f4c18b54": 1,
+        "968a8be4538f4fc4b59a61bf150e4010": 1,
+        "105c09c89301403ba59ad0569529d346": 1,
+        "6895e494a16d411ba6f5a9db976e4aaa": 3,
+        "dbfa7da092bc44faa13a86aaa683160b": 7,
+        "d3835e85abcc4e6ea56d7abf70b4a902": 1,
+        "d06fd183e0b742e191bf48a41812063c": 2,
+        "e1351d38d0ea4147986bb80f8193052d": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10K",
+          1,
+          "RES-ADJ-TH_3P-L9.5-W9.5-P2.50-L_3386P",
+          "TRIM",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C118953",
+            "BOM_Manufacturer": "Chengdu Guosheng Tech",
+            "BOM_Manufacturer Part": "3386P-1-103",
+            "puuid": "569ca0250aca49ba8eced2d5a147a418",
+            "uuid": "105c09c89301403ba59ad0569529d346"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "RES-ADJ-TH_RK1631110U1Q",
+          "POT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C370978",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK1631110U1Q",
+            "puuid": "48ed51daffa0421990c0e5c97698999c",
+            "uuid": "968a8be4538f4fc4b59a61bf150e4010"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          3,
+          "PJ-323M SIDE MOUNT",
+          "J3,J2,J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "476496da4b334546a66a88c8f4c18b54"
+          }
+        ],
+        [
+          "4046",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "a564ed556408470bb74c49ee5c05b141"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×F2.0",
+          "C3,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 2x5p 2.54mm",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          5,
+          "RAD-0.1",
+          "C9,C8,C7,C6,C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "RAD-0.1",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10nf",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R_AXIAL-0.5",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R_AXIAL-0.5",
+          "R2,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ]
+      ],
+      "updateTime": 1610759074,
+      "createTime": 1610386413,
+      "histories": [],
+      "created_at": "2021-01-11 12:33:33",
+      "updated_at": "2021-01-15 20:04:34"
+    },
+    {
+      "uuid": "c750b173758fb2cb38444d1e287aae9c",
+      "puuid": "d25cc892b489f0a7a644af33c58a0423",
+      "title": "v.2",
+      "filename": "v.2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cea48a4acd754f11b7ed89e387f3a36a": 3,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 7,
+        "e46b9352a8354a20870bdcdcb288663a": 4,
+        "569ca0250aca49ba8eced2d5a147a418": 1,
+        "48ed51daffa0421990c0e5c97698999c": 1,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10K",
+          1,
+          "RES-ADJ-TH_3P-L9.5-W9.5-P2.50-L_3386P",
+          "TRIM",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C118953",
+            "BOM_Manufacturer": "Chengdu Guosheng Tech",
+            "BOM_Manufacturer Part": "3386P-1-103",
+            "puuid": "569ca0250aca49ba8eced2d5a147a418",
+            "uuid": "105c09c89301403ba59ad0569529d346"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "RES-ADJ-TH_RK1631110U1Q",
+          "POT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C370978",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK1631110U1Q",
+            "puuid": "48ed51daffa0421990c0e5c97698999c",
+            "uuid": "968a8be4538f4fc4b59a61bf150e4010"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          3,
+          "PJ-323M SIDE MOUNT",
+          "U3,U4,J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "476496da4b334546a66a88c8f4c18b54"
+          }
+        ],
+        [
+          "4046",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "a564ed556408470bb74c49ee5c05b141"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×F2.0",
+          "C3,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 2x5p 2.54mm",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          5,
+          "RAD-0.1",
+          "C9,C8,C7,C6,C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "RAD-0.1",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10nf",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R_AXIAL-0.5",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R_AXIAL-0.5",
+          "R2,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ]
+      ],
+      "updateTime": 1611424520,
+      "createTime": 1610386584,
+      "histories": [],
+      "created_at": "2021-01-11 12:36:24",
+      "updated_at": "2021-01-23 12:55:20"
+    },
+    {
+      "uuid": "97663192e6b472b754859e7549ec3512",
+      "puuid": "d25cc892b489f0a7a644af33c58a0423",
+      "title": "Panel v.1",
+      "filename": "Panel v.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [],
+      "updateTime": 1611442648,
+      "createTime": 1611425520,
+      "histories": [],
+      "created_at": "2021-01-23 13:12:00",
+      "updated_at": "2021-01-23 17:57:28"
+    }
+  ],
+  "sort": [],
+  "title": "VCO_4046 v.2",
+  "foldername": "VCO_4046 v.2",
+  "schfilename": "VCO_4046 v.2.json",
+  "schfilemtime": 1610759074806
+}
