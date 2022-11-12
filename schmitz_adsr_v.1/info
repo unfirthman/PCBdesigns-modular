@@ -1,0 +1,885 @@
+{
+  "uuid": "94d251dce14560e9e6f876de122949ee",
+  "path": "Offline/schmitz_adsr_v.1",
+  "name": "schmitz_adsr_v.1",
+  "content": "",
+  "created_at": "2021-01-11 13:27:29",
+  "updated_at": "2021-02-16 13:56:49",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "cc68401e23afd2ffba6e1eda02a07377",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fe0383311f3248e4a586486853c1f632": 1,
+        "476496da4b334546a66a88c8f4c18b54": 1,
+        "e1351d38d0ea4147986bb80f8193052d": 12,
+        "329b532b6fec4e9c85ce5aab4567dc9f": 4,
+        "dbfa7da092bc44faa13a86aaa683160b": 9,
+        "ed535c8fe56245c1a5180026fdcb7303": 5,
+        "7415ddb9e73b4c299a9282873248f379": 3,
+        "d06fd183e0b742e191bf48a41812063c": 2,
+        "d3835e85abcc4e6ea56d7abf70b4a902": 1,
+        "f250005e6bb84fa39b38be58bd60c017": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Decay 1M",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "Attack 1M",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "Release 1M",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "Sustain 10k",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "2N3904",
+          1,
+          "TO-92-3_L5.1-W4.1-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "2N3904",
+            "BOM_Supplier Part": "C118538",
+            "puuid": "6a8cc0d167d04926a8ac5a757ba65780",
+            "uuid": "7415ddb9e73b4c299a9282873248f379"
+          }
+        ],
+        [
+          "2N3904(TO-92)",
+          2,
+          "TO-92-3_L5.1-W4.1-P1.27-L",
+          "Q2,Q3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "2N3904",
+            "BOM_Supplier Part": "C118538",
+            "puuid": "6a8cc0d167d04926a8ac5a757ba65780",
+            "uuid": "7415ddb9e73b4c299a9282873248f379"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "476496da4b334546a66a88c8f4c18b54"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×F2.0",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 2x5p 2.54mm",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "RAD-0.1",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          ".1u",
+          5,
+          "RAD-0.1",
+          "C5,C6,C11,C9,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "RAD-0.1",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R_AXIAL-0.5",
+          "R11,R12",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "4.7k",
+          4,
+          "R_AXIAL-0.5",
+          "R1,R4,R3,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "22k",
+          1,
+          "R_AXIAL-0.5",
+          "R14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R_AXIAL-0.5",
+          "R16,R17",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1M",
+          1,
+          "R_AXIAL-0.5",
+          "R15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R_AXIAL-0.5",
+          "R6,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1N4148",
+          5,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D4,D1,D2,D3,D5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "3.5mm socket",
+          2,
+          "WQP_PJ_301M8",
+          "J2,J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "bb7a00aed91b4cb7a5ca9692bdf919b8",
+            "uuid": "f250005e6bb84fa39b38be58bd60c017"
+          }
+        ],
+        [
+          "XD7555",
+          1,
+          "DIP-8_L9.7-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C521188",
+            "BOM_Manufacturer": "XINLUDA",
+            "BOM_Manufacturer Part": "XD7555",
+            "puuid": "26ddc6f916344af197d04f4724b10b8a",
+            "uuid": "fe0383311f3248e4a586486853c1f632"
+          }
+        ]
+      ],
+      "updateTime": 1610853319,
+      "createTime": 1610389649,
+      "histories": [],
+      "created_at": "2021-01-11 13:27:29",
+      "updated_at": "2021-01-16 22:15:19"
+    },
+    {
+      "uuid": "af847d892b6a57ef195d5d25d42b19df",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "PCB_2021-01-16_22-44-52",
+      "filename": "PCB_2021-01-16_22-44-52.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [],
+      "updateTime": 1611415218,
+      "createTime": 1610855093,
+      "histories": [],
+      "created_at": "2021-01-16 22:44:53",
+      "updated_at": "2021-01-23 10:20:18"
+    },
+    {
+      "uuid": "a80c6fec3443bf543c62b3bf0378a1cb",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "pcb_v2",
+      "filename": "pcb_v2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1611441998,
+      "createTime": 1611415621,
+      "histories": [],
+      "created_at": "2021-01-23 10:27:01",
+      "updated_at": "2021-01-23 17:46:38"
+    },
+    {
+      "uuid": "48e2bd3bd1f6a1b503f3fae9228ddb04",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "pcb_v3",
+      "filename": "pcb_v3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1612306913,
+      "createTime": 1611942129,
+      "histories": [],
+      "created_at": "2021-01-29 12:42:09",
+      "updated_at": "2021-02-02 18:01:53"
+    },
+    {
+      "uuid": "a91752c493bdfb71dae0c92a2eb5f10c",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "pcb_v.4 20cmm",
+      "filename": "pcb_v.4 20cmm.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Decay 1M",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "Attack 1M",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "Release 1M",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "Sustain 10k",
+          1,
+          "RES-ADJ-TH_RK09K1130AJ3",
+          "R9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C388855",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130AU2",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "29b73552a46e4295833a2f2f85523387",
+            "uuid": "329b532b6fec4e9c85ce5aab4567dc9f"
+          }
+        ],
+        [
+          "2N3904",
+          1,
+          "TO-92-3_L5.1-W4.1-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "2N3904",
+            "BOM_Supplier Part": "C118538",
+            "puuid": "6a8cc0d167d04926a8ac5a757ba65780",
+            "uuid": "7415ddb9e73b4c299a9282873248f379"
+          }
+        ],
+        [
+          "2N3904(TO-92)",
+          2,
+          "TO-92-3_L5.1-W4.1-P1.27-L",
+          "Q2,Q3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "2N3904",
+            "BOM_Supplier Part": "C118538",
+            "puuid": "6a8cc0d167d04926a8ac5a757ba65780",
+            "uuid": "7415ddb9e73b4c299a9282873248f379"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "476496da4b334546a66a88c8f4c18b54"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×F2.0",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 2x5p 2.54mm",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "RAD-0.1",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          ".1u",
+          5,
+          "RAD-0.1",
+          "C5,C6,C11,C9,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "RAD-0.1",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R_AXIAL-0.5",
+          "R11,R12",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "4.7k",
+          4,
+          "R_AXIAL-0.5",
+          "R1,R4,R3,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "22k",
+          1,
+          "R_AXIAL-0.5",
+          "R14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R_AXIAL-0.5",
+          "R16,R17",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1M",
+          1,
+          "R_AXIAL-0.5",
+          "R15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R_AXIAL-0.5",
+          "R6,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1N4148",
+          5,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D4,D1,D2,D3,D5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "3.5mm socket",
+          2,
+          "WQP_PJ_301M8",
+          "J2,J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "bb7a00aed91b4cb7a5ca9692bdf919b8",
+            "uuid": "f250005e6bb84fa39b38be58bd60c017"
+          }
+        ],
+        [
+          "XD7555",
+          1,
+          "DIP-8_L9.7-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C521188",
+            "BOM_Manufacturer": "XINLUDA",
+            "BOM_Manufacturer Part": "XD7555",
+            "puuid": "26ddc6f916344af197d04f4724b10b8a",
+            "uuid": "fe0383311f3248e4a586486853c1f632"
+          }
+        ]
+      ],
+      "updateTime": 1612027329,
+      "createTime": 1612026879,
+      "histories": [],
+      "created_at": "2021-01-30 12:14:39",
+      "updated_at": "2021-01-30 12:22:09"
+    },
+    {
+      "uuid": "a5061ee7cfa4645cba230579b47d5d6f",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "pcb v.4",
+      "filename": "pcb v.4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [],
+      "updateTime": 1612460039,
+      "createTime": 1612387820,
+      "histories": [],
+      "created_at": "2021-02-03 16:30:20",
+      "updated_at": "2021-02-04 12:33:59"
+    },
+    {
+      "uuid": "a03e275ebd8597dc6017fac41989e226",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "pcb v.5",
+      "filename": "pcb v.5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [],
+      "updateTime": 1612645028,
+      "createTime": 1612630760,
+      "histories": [],
+      "created_at": "2021-02-06 11:59:20",
+      "updated_at": "2021-02-06 15:57:08"
+    },
+    {
+      "uuid": "292869a19685ed4e7801ed5f0c99a257",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "pcb version 2.1",
+      "filename": "pcb version 2.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6a8cc0d167d04926a8ac5a757ba65780": 3,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 9,
+        "e46b9352a8354a20870bdcdcb288663a": 12,
+        "07f65a035ec440c9ba8d8743498f47ca": 5,
+        "29b73552a46e4295833a2f2f85523387": 4,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "bb7a00aed91b4cb7a5ca9692bdf919b8": 2,
+        "26ddc6f916344af197d04f4724b10b8a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1612830383,
+      "createTime": 1612631232,
+      "histories": [],
+      "created_at": "2021-02-06 12:07:12",
+      "updated_at": "2021-02-08 19:26:23"
+    },
+    {
+      "uuid": "b460dd216f709db9519f9e0c747d9a90",
+      "puuid": "94d251dce14560e9e6f876de122949ee",
+      "title": "Panel_v.1",
+      "filename": "Panel_v.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [],
+      "updateTime": 1613501809,
+      "createTime": 1613500054,
+      "histories": [],
+      "created_at": "2021-02-16 13:27:34",
+      "updated_at": "2021-02-16 13:56:49"
+    }
+  ],
+  "sort": [],
+  "title": "schmitz_adsr_v.1",
+  "foldername": "schmitz_adsr_v.1",
+  "schfilename": "schmitz_adsr_v.1.json",
+  "schfilemtime": 1610853319938
+}
