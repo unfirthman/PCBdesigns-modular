@@ -1,0 +1,774 @@
+{
+  "uuid": "6988868f88d9df3d8bb1c31b8694b937",
+  "path": "Offline/4017 simple sequencer v2",
+  "name": "4017 simple sequencer v2",
+  "content": "",
+  "created_at": "2021-01-11 11:06:46",
+  "updated_at": "2021-02-16 13:11:02",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "22cc7aca6b7082d823f3b2c604fdceb4",
+      "title": "4017 Simple CV Sequencer",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "913e006e32d447a4998f7ae3dc027f52": 1,
+        "d06fd183e0b742e191bf48a41812063c": 1,
+        "d3835e85abcc4e6ea56d7abf70b4a902": 1,
+        "ed535c8fe56245c1a5180026fdcb7303": 8,
+        "e1351d38d0ea4147986bb80f8193052d": 9,
+        "aac52597c6ec48e09ea3705a2f54d7d2": 8,
+        "dbfa7da092bc44faa13a86aaa683160b": 2,
+        "6895e494a16d411ba6f5a9db976e4aaa": 2,
+        "58310ed89f5d472a91828934a5842660": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "4017",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "913e006e32d447a4998f7ae3dc027f52"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          2,
+          "PJ-323M SIDE MOUNT",
+          "J2,J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "SMALL SIDE MOUNT POT",
+          8,
+          "SMALL SIDE MOUNT POT",
+          "PT6,PT5,PT4,PT3,PT2,PT1,PT8,PT7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "3c762674c8da45aa82345f9b41391d3a",
+            "uuid": "58310ed89f5d472a91828934a5842660"
+          }
+        ],
+        [
+          "LED-TH-3mm_B",
+          8,
+          "LED-TH_BD3.0_BLUE",
+          "LED2,LED4,LED6,LED5,LED1,LED3,LED8,LED7",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SUBC/S400-A4",
+            "BOM_Supplier Part": "C86881",
+            "BOM_Supplier": "LCSC",
+            "puuid": "52c11d38b35a4fc594f3067d1697639d",
+            "uuid": "aac52597c6ec48e09ea3705a2f54d7d2"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×F2.0",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 10",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          2,
+          "RAD-0.1",
+          "C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "R_AXIAL-0.5",
+          "R2,R5,R8,R4,R6,R3,R7,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R_AXIAL-0.5",
+          "R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1N4148",
+          8,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D7,D6,D5,D4,D3,D1,D2,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ]
+      ],
+      "updateTime": 1612296227,
+      "createTime": 1610381206,
+      "histories": [],
+      "created_at": "2021-01-11 11:06:46",
+      "updated_at": "2021-02-02 15:03:47"
+    },
+    {
+      "uuid": "6c39a10d513af958beac87ee4ffbf7f1",
+      "puuid": "6988868f88d9df3d8bb1c31b8694b937",
+      "title": "4017 PCB v.1",
+      "filename": "4017 PCB v.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ea82fbe34d7840de9fdcf3145ab199ef": 2,
+        "40a15c9296114a388e3d2dfb1f3e817f": 2,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "52c11d38b35a4fc594f3067d1697639d": 8,
+        "2911fdb99ae04b8293fdd520b8027fcc": 8,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "e46b9352a8354a20870bdcdcb288663a": 9,
+        "07f65a035ec440c9ba8d8743498f47ca": 8
+      },
+      "BOM": [],
+      "updateTime": 1610390757,
+      "createTime": 1610381226,
+      "histories": [],
+      "created_at": "2021-01-11 11:07:06",
+      "updated_at": "2021-01-11 13:45:57"
+    },
+    {
+      "uuid": "42cfc772f079c867ea1f94df442d4c13",
+      "puuid": "6988868f88d9df3d8bb1c31b8694b937",
+      "title": "pcb v.2 sizing",
+      "filename": "pcb v.2 sizing.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cea48a4acd754f11b7ed89e387f3a36a": 2,
+        "52c11d38b35a4fc594f3067d1697639d": 8,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 2,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 2,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "e46b9352a8354a20870bdcdcb288663a": 9,
+        "07f65a035ec440c9ba8d8743498f47ca": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "RK09K1110-K15-C0-B104",
+          8,
+          "RK09K1110K15C0B104",
+          "VR8,VR7,VR6,VR5,VR4,VR3,VR2,VR1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "4239921900d94efa88d3cb98f99743af",
+            "uuid": "20c194a54e134f9eb15d5c57fe59eaba"
+          }
+        ],
+        [
+          "CLOCK IN",
+          1,
+          "WQP_PJ_301M7",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "40a15c9296114a388e3d2dfb1f3e817f",
+            "uuid": "68b981b36f2648a695ab82e54130abfc"
+          }
+        ],
+        [
+          "CV OUT",
+          1,
+          "WQP_PJ_301M7",
+          "J2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "40a15c9296114a388e3d2dfb1f3e817f",
+            "uuid": "68b981b36f2648a695ab82e54130abfc"
+          }
+        ],
+        [
+          "4017",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "913e006e32d447a4998f7ae3dc027f52"
+          }
+        ],
+        [
+          "LED-TH-3mm_B",
+          8,
+          "LED-TH_BD3.0_BLUE",
+          "LED8,LED1,LED2,LED3,LED7,LED4,LED5,LED6",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SUBC/S400-A4",
+            "BOM_Supplier Part": "C86881",
+            "BOM_Supplier": "LCSC",
+            "puuid": "52c11d38b35a4fc594f3067d1697639d",
+            "uuid": "aac52597c6ec48e09ea3705a2f54d7d2"
+          }
+        ],
+        [
+          "10K",
+          7,
+          "RES-TH_RK09K1110A0J",
+          "PT1,PT6,PT2,PT3,PT4,PT5,PT7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C209767",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1110A0J",
+            "puuid": "2911fdb99ae04b8293fdd520b8027fcc",
+            "uuid": "b4d8b7bec4df4f00b758930977467385"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×F2.0",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "47uf",
+          1,
+          "CAP-D5.0×F2.0",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 10",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          2,
+          "RAD-0.1",
+          "C4,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R_AXIAL-0.5",
+          "R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "R_AXIAL-0.5",
+          "R8,R2,R6,R1,R7,R5,R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1N4148",
+          8,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D7,D6,D5,D4,D3,D1,D8,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ]
+      ],
+      "updateTime": 1611447739,
+      "createTime": 1610923642,
+      "histories": [],
+      "created_at": "2021-01-17 17:47:22",
+      "updated_at": "2021-01-23 19:22:19"
+    },
+    {
+      "uuid": "77b6e8bd1754be993e0b0163a79f1f2d",
+      "puuid": "6988868f88d9df3d8bb1c31b8694b937",
+      "title": "Panel v.1",
+      "filename": "Panel v.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [],
+      "updateTime": 1613499062,
+      "createTime": 1611444382,
+      "histories": [],
+      "created_at": "2021-01-23 18:26:22",
+      "updated_at": "2021-02-16 13:11:02"
+    },
+    {
+      "uuid": "7ce03f70b13615e7804e5c83b2849e9f",
+      "puuid": "6988868f88d9df3d8bb1c31b8694b937",
+      "title": "pcb v.2",
+      "filename": "pcb v.2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "52c11d38b35a4fc594f3067d1697639d": 8,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 2,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 1,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "e46b9352a8354a20870bdcdcb288663a": 9,
+        "07f65a035ec440c9ba8d8743498f47ca": 8,
+        "cea48a4acd754f11b7ed89e387f3a36a": 2,
+        "3c762674c8da45aa82345f9b41391d3a": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "4017",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "913e006e32d447a4998f7ae3dc027f52"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          2,
+          "PJ-323M SIDE MOUNT",
+          "J2,J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "LED-TH-3mm_B",
+          8,
+          "LED-TH_BD3.0_BLUE",
+          "LED8,LED7,LED1,LED2,LED3,LED4,LED5,LED6",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SUBC/S400-A4",
+            "BOM_Supplier Part": "C86881",
+            "BOM_Supplier": "LCSC",
+            "puuid": "52c11d38b35a4fc594f3067d1697639d",
+            "uuid": "aac52597c6ec48e09ea3705a2f54d7d2"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "RES-TH_RK09K1110A0J",
+          "PT6,PT8,PT2,PT3,PT4,PT5,PT7,PT1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C209767",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1110A0J",
+            "puuid": "2911fdb99ae04b8293fdd520b8027fcc",
+            "uuid": "b4d8b7bec4df4f00b758930977467385"
+          }
+        ],
+        [
+          "47uf",
+          1,
+          "CAP-D5.0×F2.0",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×F2.0",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 10",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          2,
+          "RAD-0.1",
+          "C4,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "R_AXIAL-0.5",
+          "R2,R5,R6,R4,R7,R3,R8,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R_AXIAL-0.5",
+          "R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1N4148",
+          8,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D5,D4,D6,D7,D1,D3,D8,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ]
+      ],
+      "updateTime": 1612305872,
+      "createTime": 1612120032,
+      "histories": [],
+      "created_at": "2021-01-31 14:07:12",
+      "updated_at": "2021-02-02 17:44:32"
+    },
+    {
+      "uuid": "6411bd05d9e01c906f6924d8d3c74187",
+      "puuid": "6988868f88d9df3d8bb1c31b8694b937",
+      "title": "pcb_v.3",
+      "filename": "pcb_v.3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "52c11d38b35a4fc594f3067d1697639d": 8,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 2,
+        "36387ea742a04602bc24d100c866268f": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 1,
+        "b4ba14971d7a4384af3e9f2eb45b835f": 1,
+        "e46b9352a8354a20870bdcdcb288663a": 9,
+        "07f65a035ec440c9ba8d8743498f47ca": 8,
+        "cea48a4acd754f11b7ed89e387f3a36a": 2,
+        "3c762674c8da45aa82345f9b41391d3a": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "4017",
+          1,
+          "DIP16",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "913e006e32d447a4998f7ae3dc027f52"
+          }
+        ],
+        [
+          "PJ-323M side mount",
+          2,
+          "PJ-323M SIDE MOUNT",
+          "J2,J1",
+          {
+            "BOM_Manufacturer": "Tayda",
+            "BOM_Manufacturer Part": "PJ-323M",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "PJ-323M",
+            "puuid": "cea48a4acd754f11b7ed89e387f3a36a",
+            "uuid": "6895e494a16d411ba6f5a9db976e4aaa"
+          }
+        ],
+        [
+          "SMALL SIDE MOUNT POT",
+          8,
+          "SMALL SIDE MOUNT POT",
+          "PT6,PT5,PT4,PT3,PT2,PT1,PT8,PT7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "3c762674c8da45aa82345f9b41391d3a",
+            "uuid": "58310ed89f5d472a91828934a5842660"
+          }
+        ],
+        [
+          "LED-TH-3mm_B",
+          8,
+          "LED-TH_BD3.0_BLUE",
+          "LED2,LED4,LED6,LED5,LED1,LED3,LED8,LED7",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SUBC/S400-A4",
+            "BOM_Supplier Part": "C86881",
+            "BOM_Supplier": "LCSC",
+            "puuid": "52c11d38b35a4fc594f3067d1697639d",
+            "uuid": "aac52597c6ec48e09ea3705a2f54d7d2"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×F2.0",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "d06fd183e0b742e191bf48a41812063c"
+          }
+        ],
+        [
+          "Eurorack 10",
+          1,
+          "EURORACK HDR-IDC-2.54-2X5P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 2X5P",
+            "BOM_Supplier Part": "C5665",
+            "puuid": "b4ba14971d7a4384af3e9f2eb45b835f",
+            "uuid": "d3835e85abcc4e6ea56d7abf70b4a902"
+          }
+        ],
+        [
+          ".1u",
+          2,
+          "RAD-0.1",
+          "C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "R_AXIAL-0.5",
+          "R2,R5,R8,R4,R6,R3,R7,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R_AXIAL-0.5",
+          "R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "1N4148",
+          8,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D7,D6,D5,D4,D3,D1,D2,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ]
+      ],
+      "updateTime": 1613493022,
+      "createTime": 1612305875,
+      "histories": [],
+      "created_at": "2021-02-02 17:44:35",
+      "updated_at": "2021-02-16 11:30:22"
+    }
+  ],
+  "sort": [],
+  "title": "4017 simple sequencer v2",
+  "foldername": "4017 simple sequencer v2",
+  "schfilename": "4017 simple sequencer v2.json",
+  "schfilemtime": 1612296227296
+}
